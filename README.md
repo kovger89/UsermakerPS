@@ -5,7 +5,7 @@ Creation Date:  2021.10.23
 
 Run this script in a PowerShell v5.1 capable CLI.  
 This .ps1 file will create users in Windows based on a .csv file.  
-The columns in the .csv file must be built as follows: "Name","Fullname","Description","Password","Group"  
+The columns in the .csv file must be built as follows: "Name","Fullname","Description","Password","Group" (see users-example.csv)  
 Details:  
   "Name" - the desired username. (Mandatory)  
   "Fullname" - The full name of the user. (Optional - leave as "" if not used)  
